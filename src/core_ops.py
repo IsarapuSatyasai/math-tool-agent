@@ -14,3 +14,9 @@ class CoreCalculator:
         if b == 0:
             raise ValueError("Cannot perform modulus by zero.")
         return a % b
+    
+    def division(self, a: float, b: float) -> float:
+        """Calculates the division of a by b."""
+        if b == 0:
+            raise ValueError("Cannot perform division by zero.")
+        return a / b
